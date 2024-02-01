@@ -1,0 +1,20 @@
+/* Fonts imports */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  /* font-family: 'Poppins', sans-serif; */
+}
+/* Stylink in icon */
+i{
+  cursor: pointer;
+  color: #42bdae;
+  font-weight: 700;
+}
+.loginbtn:hover{
+  background-color:#42bdae;
+}
+.login-container{
+ height: 100vh;
+ background-color:rgb(190, 196, 202);
+}
