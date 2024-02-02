@@ -8,7 +8,7 @@ const express = require('express')
 const app = express()
 app.use(cors(
   {
-  origin: ["https://todo-mern-app-bakend.vercel.app"],
+  origin: ["https://todo-mern-app-bakend.vercel.app/"],
   methods: ["Get","POST","PUT","DELETE"],
   credentials: true
   }
