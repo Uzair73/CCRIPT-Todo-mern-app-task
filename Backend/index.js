@@ -9,7 +9,7 @@ const app = express()
 app.use(cors(
   {
   origin: ["https://todo-mern-app-bakend.vercel.app/"],
-  methods: ["Get","POST","PUT","DELETE"],
+  methods: ["GET","POST","PUT","DELETE"],
   credentials: true
   }
 )) //use cores to fetch the data in the browser
