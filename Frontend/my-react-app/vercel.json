@@ -1,3 +1,8 @@
 {
-    "rewrites": [{"source": "/(.*)", "destination": "/"}]
+  "rewrites": [
+    {
+      "source": "/api/auth/signup",
+      "destination": "https://ccript-todo-mern-app-task.vercel.app/api/auth/signup*"
+    }
+  ]
 }
