@@ -3,7 +3,7 @@ import NoteContext from "./notecontext";
 import { jwtDecode } from "jwt-decode";
 
 const Notestate = (props) => {
-  const host = " http://localhost:8080";
+  const host = "https://ccript-todo-mern-app-task.vercel.app";
   const notesInitials = [];
   const [note, setNote] = useState(notesInitials);
 
