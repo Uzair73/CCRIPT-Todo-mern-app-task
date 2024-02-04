@@ -1,1 +1,8 @@
-{ "rewrites": [{ "source": "/(.*)", "destination": "/" }] }
+{
+  "rewrites": [
+    {
+      "source": "/home*",
+      "destination": "https://ccript-todo-mern-app-task.vercel.app/home*"
+    }
+  ]
+}
