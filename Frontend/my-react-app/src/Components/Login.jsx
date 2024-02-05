@@ -7,7 +7,7 @@ const Login = (props) => {
   const submitform = async (e) => {
     e.preventDefault();
     // API call
-    const response = await fetch(`https://ccript-todo-mern-app-task.vercel.app/api/auth/login`, {
+    const response = await fetch(`https://todo-api-flax.vercel.app/api/auth/login`, {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
