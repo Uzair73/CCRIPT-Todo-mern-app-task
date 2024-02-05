@@ -12,7 +12,7 @@ const Signup = (props) => {
     const { name, email, password } = credentials;
     e.preventDefault();
     // API call
-    const response = await fetch(`https://ccript-todo-mern-app-task.vercel.app/api/auth/signup`, {
+    const response = await fetch(`https://todo-api-flax.vercel.app/api/auth/signup`, {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
